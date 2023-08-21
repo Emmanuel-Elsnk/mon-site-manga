@@ -1,0 +1,70 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #FF5F6D;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.article {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #F4F4F4;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+}
+
+/* Styles pour le formulaire de contact */
+.contact {
+    background-color: #F9F9F9;
+    color: #333;
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #FFCC29;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #FF5F6D;
+    color: white;
+}
+
